@@ -40,3 +40,23 @@ function removeItem(index) {
   saveCart();
   location.reload();
 }
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      
+      let lat = position.coords.latitude;
+      let lng = position.coords.longitude;
+
+      let mapsLink = `https://www.google.com/maps?q=${lat},${lng}`;
+
+      document.getElementById("location").value = mapsLink;
+
+      alert("Location captured!");
+      
+    }, function() {
+      alert("Location permission denied");
+    });
+  } else {
+    alert("Geolocation not supported");
+  }
+}
