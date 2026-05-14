@@ -63,9 +63,16 @@
 
   <div class="container">
 
-    <a class="navbar-brand fw-bold" href="#">
-      NVR Agencies
-    </a>
+    <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+
+  <img src="logo.png"
+       width="45"
+       height="45"
+       class="me-2 rounded-circle">
+
+  NVR Agencies
+
+</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
