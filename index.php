@@ -111,21 +111,50 @@
 </nav>
 
 <!-- HERO SECTION -->
-<section class="hero">
+<section class="hero-section d-flex align-items-center text-white">
 
   <div class="container">
 
-    <h1 class="display-5 fw-bold">
-      Welcome to NVR Agencies
-    </h1>
+    <div class="row align-items-center">
 
-    <p class="lead mt-3">
-      Water Supply & Product Delivery Service
-    </p>
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6 text-center text-lg-start">
 
-    <a href="#products" class="btn btn-light btn-lg mt-3">
-      View Products
-    </a>
+        <h1 class="display-4 fw-bold mb-4">
+
+          Pure Water Supply <br>
+          For Every Need 💧
+
+        </h1>
+
+        <p class="lead mb-4">
+
+          Marriage Functions, Party Halls,
+          Homes, Shops & Stores Available
+          With All Size Water Cans.
+
+        </p>
+
+        <!-- BUTTON -->
+        <a href="#products"
+           class="btn btn-light btn-lg px-4 py-2 fw-bold">
+
+          View Products
+
+        </a>
+
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-6 text-center mt-4 mt-lg-0">
+
+        <img src="hero-banner.png"
+             alt="NVR Agencies Water Supply"
+             class="img-fluid hero-image">
+
+      </div>
+
+    </div>
 
   </div>
 
