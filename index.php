@@ -19,6 +19,8 @@
   <!-- JS -->
   <script src="script.js" defer></script>
 
+  <link rel="icon" type="image/png" href="logo.png">
+
   <style>
 
     body{
