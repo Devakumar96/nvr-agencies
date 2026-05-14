@@ -113,42 +113,40 @@
 <!-- HERO SECTION -->
 <section class="hero-section">
 
-  <div class="hero-overlay">
+  <!-- HERO IMAGE -->
+  <div class="hero-image-container">
 
-    <div class="container h-100">
+    <img src="hero-banner.png"
+         alt="NVR Agencies"
+         class="hero-image">
 
-      <div class="row h-100 align-items-center">
+  </div>
 
-        <div class="col-lg-7">
+  <!-- HERO CONTENT -->
+  <div class="hero-content">
 
-          <div class="hero-content text-white">
+    <div class="container text-center">
 
-            <h1 class="hero-title fw-bold">
+      <h1 class="hero-title">
 
-              Pure Water Supply For Every Need 💧
+        Pure Water Supply For Every Need 💧
 
-            </h1>
+      </h1>
 
-            <p class="hero-text mt-4">
+      <p class="hero-text">
 
-              Marriage Functions, Party Halls,
-              Individual Homes, Stores & Shops
-              Available With All Size Water Cans.
+        Marriage Functions, Party Halls,
+        Individual Homes, Stores & Shops
+        Available With All Size Water Cans.
 
-            </p>
+      </p>
 
-            <a href="#products"
-               class="btn btn-light btn-lg mt-4 px-4 fw-bold">
+      <a href="#products"
+         class="btn btn-primary btn-lg mt-3">
 
-              View Products
+        View Products
 
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>
+      </a>
 
     </div>
 
