@@ -19,6 +19,8 @@
   <!-- JS -->
   <script src="script.js" defer></script>
 
+  <link rel="icon" type="image/png" href="logo.png">
+
   <style>
 
     body{
@@ -63,9 +65,16 @@
 
   <div class="container">
 
-    <a class="navbar-brand fw-bold" href="#">
-      NVR Agencies
-    </a>
+    <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+
+  <img src="logo.png"
+       width="45"
+       height="45"
+       class="me-2 rounded-circle">
+
+  NVR Agencies
+
+</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
@@ -102,26 +111,48 @@
 </nav>
 
 <!-- HERO SECTION -->
-<section class="hero">
+<section class="hero-section">
 
-  <div class="container">
+  <!-- HERO IMAGE -->
+  <div class="hero-banner-wrapper">
 
-    <h1 class="display-5 fw-bold">
-      Welcome to NVR Agencies
-    </h1>
+    <img src="hero-banner.png"
+         alt="NVR Agencies Water Supply"
+         class="hero-banner-img">
 
-    <p class="lead mt-3">
-      Water Supply & Product Delivery Service
-    </p>
+  </div>
 
-    <a href="#products" class="btn btn-light btn-lg mt-3">
-      View Products
-    </a>
+  <!-- HERO CONTENT -->
+  <div class="hero-content-section">
+
+    <div class="container text-center">
+
+      <h1 class="hero-title">
+
+        Pure Water Supply For Every Need 💧
+
+      </h1>
+
+      <p class="hero-description">
+
+        Marriage Functions, Party Halls,
+        Individual Homes, Stores & Shops
+        Available With All Size Water Cans.
+
+      </p>
+
+      <a href="#products"
+         class="btn btn-primary btn-lg px-4 py-3 mt-3">
+
+        View Products
+
+      </a>
+
+    </div>
 
   </div>
 
 </section>
-
 <!-- PRODUCTS -->
 <section class="container mt-5" id="products">
 
@@ -140,15 +171,15 @@
 
         <div class="card-body text-center">
 
-          <img src="https://cdn-icons-png.flaticon.com/512/3105/3105807.png"
+          <img src="./20l can.png"
                width="120"
                class="mb-3">
 
-          <h4>Water Can</h4>
+          <h4>20L Water Can</h4>
 
-          <p class="text-muted">
+          <!-- <p class="text-muted">
             Fresh drinking water can delivery
-          </p>
+          </p> -->
 
           <h5 class="text-primary mb-3">
             ₹30
@@ -173,15 +204,15 @@
 
         <div class="card-body text-center">
 
-          <img src="https://cdn-icons-png.flaticon.com/512/2972/2972185.png"
+          <img src="./5l can.png"
                width="120"
                class="mb-3">
 
-          <h4>20L Bottle</h4>
+          <h4>5L Bottle</h4>
 
-          <p class="text-muted">
+          <!-- <p class="text-muted">
             Mineral water bottle supply
-          </p>
+          </p> -->
 
           <h5 class="text-primary mb-3">
             ₹50
@@ -206,15 +237,15 @@
 
         <div class="card-body text-center">
 
-          <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png"
+          <img src="./1l bottle.png"
                width="120"
                class="mb-3">
 
-          <h4>Cool Water Pack</h4>
+          <h4>1L Bottle</h4>
 
-          <p class="text-muted">
+          <!-- <p class="text-muted">
             Chilled water delivery service
-          </p>
+          </p> -->
 
           <h5 class="text-primary mb-3">
             ₹80
@@ -231,8 +262,105 @@
       </div>
 
     </div>
+<!--product 4 -->
+    <div class="col-md-4 mb-4">
 
+      <div class="card product-card h-100">
+
+        <div class="card-body text-center">
+
+          <img src="./1l bottle.png"
+               width="120"
+               class="mb-3">
+
+          <h4>1L Bottle</h4>
+
+          <!-- <p class="text-muted">
+            Chilled water delivery service
+          </p> -->
+
+          <h5 class="text-primary mb-3">
+            ₹80
+          </h5>
+
+          <button class="btn btn-primary"
+            onclick="addToCart('Cool Water Pack',80)">
+            <i class="bi bi-cart-plus"></i>
+            Add to Cart
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+    <!--product 5 -->
+    <div class="col-md-4 mb-4">
+
+      <div class="card product-card h-100">
+
+        <div class="card-body text-center">
+
+          <img src="./1l bottle.png"
+               width="120"
+               class="mb-3">
+
+          <h4>1L Bottle</h4>
+
+          <!-- <p class="text-muted">
+            Chilled water delivery service
+          </p> -->
+
+          <h5 class="text-primary mb-3">
+            ₹80
+          </h5>
+
+          <button class="btn btn-primary"
+            onclick="addToCart('Cool Water Pack',80)">
+            <i class="bi bi-cart-plus"></i>
+            Add to Cart
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+    <!--product 6 -->
+    <div class="col-md-4 mb-4">
+
+      <div class="card product-card h-100">
+
+        <div class="card-body text-center">
+
+          <img src="./1l bottle.png"
+               width="120"
+               class="mb-3">
+
+          <h4>1L Bottle</h4>
+
+          <!-- <p class="text-muted">
+            Chilled water delivery service
+          </p> -->
+
+          <h5 class="text-primary mb-3">
+            ₹80
+          </h5>
+
+          <button class="btn btn-primary"
+            onclick="addToCart('Cool Water Pack',80)">
+            <i class="bi bi-cart-plus"></i>
+            Add to Cart
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
   </div>
+  
+  
 
 </section>
 

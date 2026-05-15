@@ -81,7 +81,7 @@ $whatsapp =
   <!-- Bootstrap Icons -->
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
+<link rel="icon" type="image/png" href="logo.png">
   <style>
 
     body{
@@ -118,12 +118,15 @@ $whatsapp =
 
   <div class="container">
 
-    <a class="navbar-brand fw-bold"
-       href="index.php">
+    <a class="navbar-brand fw-bold d-flex align-items-center" href="index.php">
+     <img src="logo.png"
+       width="45"
+       height="45"
+       class="me-2 rounded-circle">
 
-      NVR Agencies
+  NVR Agencies
 
-    </a>
+</a>
 
     <button class="navbar-toggler"
             type="button"

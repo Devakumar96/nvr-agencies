@@ -19,7 +19,7 @@ $totalOrders = $result->num_rows;
 
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
+<link rel="icon" type="image/png" href="logo.png">
   <style>
     body {
       background: #f5f5f5;
@@ -56,9 +56,15 @@ $totalOrders = $result->num_rows;
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container">
 
-    <a class="navbar-brand fw-bold" href="#">
-      NVR Agencies Admin
-    </a>
+    <a class="navbar-brand fw-bold d-flex align-items-center" href="index.php">
+     <img src="logo.png"
+       width="45"
+       height="45"
+       class="me-2 rounded-circle">
+
+  NVR Agencies
+
+</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>

@@ -21,3 +21,99 @@ button {
   margin: 5px;
   cursor: pointer;
 }
+/* HERO SECTION */
+
+.hero-section{
+
+  width:100%;
+  overflow:hidden;
+  background:#fff;
+
+}
+
+/* IMAGE WRAPPER */
+
+.hero-banner-wrapper{
+
+  width:100%;
+
+}
+
+/* HERO IMAGE */
+
+.hero-banner-img{
+
+  width:100%;
+  height:auto;
+
+  display:block;
+
+  object-fit:cover;
+
+}
+
+/* CONTENT SECTION */
+
+.hero-content-section{
+
+  padding:60px 20px;
+
+  background:#ffffff;
+
+}
+
+/* TITLE */
+
+.hero-title{
+
+  font-size:3.5rem;
+  font-weight:700;
+
+  color:#0d6efd;
+
+}
+
+/* DESCRIPTION */
+
+.hero-description{
+
+  font-size:1.3rem;
+
+  margin-top:20px;
+
+  color:#555;
+
+  line-height:1.8;
+
+  max-width:900px;
+
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+  .hero-title{
+
+    font-size:2rem;
+
+  }
+
+  .hero-description{
+
+    font-size:1rem;
+
+    line-height:1.6;
+
+  }
+
+  .hero-content-section{
+
+    padding:40px 15px;
+
+  }
+
+}

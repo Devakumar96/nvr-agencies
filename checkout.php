@@ -12,7 +12,7 @@
 
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
+<link rel="icon" type="image/png" href="logo.png">
   <style>
 
     body{
@@ -44,9 +44,15 @@
 
   <div class="container">
 
-    <a class="navbar-brand fw-bold" href="index.php">
-      NVR Agencies
-    </a>
+    <a class="navbar-brand fw-bold d-flex align-items-center" href="index.php">
+     <img src="logo.png"
+       width="45"
+       height="45"
+       class="me-2 rounded-circle">
+
+  NVR Agencies
+
+</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
@@ -138,7 +144,7 @@
             </div>
 
             <!-- LOCATION -->
-            <div class="mb-3">
+            <!-- <div class="mb-3">
 
               <label class="form-label">
                 Delivery Location
@@ -157,14 +163,14 @@
 
               </div>
 
-            </div>
+            </div> -->
 
-            <!-- LOCATION STATUS -->
-            <div class="alert alert-info" id="locationStatus">
+            <!--LOCATION STATUS -->
+            <!-- <div class="alert alert-info" id="locationStatus">
 
               Location not captured
 
-            </div>
+            </div> -->
 
             <!-- HIDDEN INPUT -->
             <input type="hidden"
@@ -292,58 +298,58 @@ document.getElementById("totalAmount").innerHTML =
   `Total: ₹${total}`;
 
 /* LOCATION */
-function getLocation(){
+// function getLocation(){
 
-  if(navigator.geolocation){
+//   if(navigator.geolocation){
 
-    navigator.geolocation.getCurrentPosition(
+//     navigator.geolocation.getCurrentPosition(
 
-      function(position){
+//       function(position){
 
-        let lat = position.coords.latitude;
-        let lng = position.coords.longitude;
+//         let lat = position.coords.latitude;
+//         let lng = position.coords.longitude;
 
-        let mapsLink =
-          `https://www.google.com/maps?q=${lat},${lng}`;
+//         let mapsLink =
+//           `https://www.google.com/maps?q=${lat},${lng}`;
 
-        document.getElementById("location").value =
-          mapsLink;
+//         document.getElementById("location").value =
+//           mapsLink;
 
-        document.getElementById("locationStatus")
-          .innerHTML =
-          "✅ Location captured successfully";
+//         document.getElementById("locationStatus")
+//           .innerHTML =
+//           "✅ Location captured successfully";
 
-        document.getElementById("locationStatus")
-          .classList.remove("alert-info");
+//         document.getElementById("locationStatus")
+//           .classList.remove("alert-info");
 
-        document.getElementById("locationStatus")
-          .classList.add("alert-success");
+//         document.getElementById("locationStatus")
+//           .classList.add("alert-success");
 
-      },
+//       },
 
-      function(){
+//       function(){
 
-        document.getElementById("locationStatus")
-          .innerHTML =
-          "❌ Location permission denied";
+//         document.getElementById("locationStatus")
+//           .innerHTML =
+//           "❌ Location permission denied";
 
-        document.getElementById("locationStatus")
-          .classList.remove("alert-info");
+//         document.getElementById("locationStatus")
+//           .classList.remove("alert-info");
 
-        document.getElementById("locationStatus")
-          .classList.add("alert-danger");
+//         document.getElementById("locationStatus")
+//           .classList.add("alert-danger");
 
-      }
+//       }
 
-    );
+//     );
 
-  }else{
+//   }else{
 
-    alert("Geolocation not supported");
+//     alert("Geolocation not supported");
 
-  }
+//   }
 
-}
+// }
 
 </script>
 

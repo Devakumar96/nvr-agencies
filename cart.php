@@ -16,6 +16,8 @@
   <!-- JS -->
   <script src="script.js" defer></script>
 
+  <link rel="icon" type="image/png" href="logo.png">
+
   <style>
 
     body{
@@ -46,10 +48,15 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
 
   <div class="container">
+<a class="navbar-brand fw-bold d-flex align-items-center" href="index.php">
+     <img src="logo.png"
+       width="45"
+       height="45"
+       class="me-2 rounded-circle">
 
-    <a class="navbar-brand fw-bold" href="index.php">
-      NVR Agencies
-    </a>
+  NVR Agencies
+
+</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
